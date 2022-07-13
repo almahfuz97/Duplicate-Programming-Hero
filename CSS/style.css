@@ -2,55 +2,53 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
+
+}
+
+body {
+
+    background: linear-gradient(rgb(14, 9, 36), rgb(21, 21, 49), rgb(14, 9, 36));
+    background-size: cover;
+    background-attachment: fixed;
+
+    background-repeat: no-repeat;
+
 }
 
 header {
-    background-image: linear-gradient(rgb(14, 9, 36), rgb(21, 21, 49), rgb(14, 9, 36));
-    background-size: cover;
     padding-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
     padding-left: 10%;
-    height: 100vh;
+    padding-right: 10%;
+
+
 }
 
-.logo {}
-
-.logo-div {
-    width: 20%;
-}
-
-nav {
+.nav-container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin-bottom: 5%;
+    justify-content: space-between;
 
 }
 
-ul {
-    align-self: flex-end;
-
-}
 
 .list-div {
-    width: 100%;
-    margin-right: 10%;
+    /* width: 100%;
+    margin-right: 10%; */
 
-    text-align: end;
 }
 
 nav li {
     display: inline-block;
     text-decoration: none;
     color: white;
-    margin-right: 20px;
 }
 
 nav li a {
     text-decoration: none;
     color: white;
-    font-size: 16px;
-    font-weight: 400;
+    margin-left: 20px;
     text-transform: uppercase;
     display: inline-block;
 
@@ -61,8 +59,13 @@ nav li a:hover {
     transition: 0.5s;
 }
 
-.header-parent-section {
+.banner-parent-section {
     position: relative;
+
+    background-size: cover;
+    padding-left: 10%;
+    padding-right: 10%;
+
     animation: change-view 12s infinite 3s ease-in;
     /* animation: name duration timing-function delay iteration-count direction fill-mode; */
 
@@ -99,48 +102,49 @@ nav li a:hover {
 
 }
 
-.header-section-1 {
+.banner-section-1 {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     position: absolute;
-    z-index: 3;
-    visibility: visible;
     visibility: var(--vis1);
 
 }
 
-.header-section-2 {
+.banner-section-2 {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     position: absolute;
-    z-index: 2;
     visibility: var(--vis2, hidden);
 }
 
 
-.header-section-3 {
+.banner-section-3 {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     position: absolute;
     visibility: var(--vis3, hidden);
-    z-index: 1;
+
 }
-
-
 
 .half-width {
     width: 50%;
 }
 
 .half-width img {
-    width: 75%;
+    width: 100%;
+    padding-right: 10%;
 }
 
-.half-width h1 {
+.h-p-a {
     width: 100%;
+}
+
+
+.half-width h1 {
+
     font-size: 90px;
     color: white;
     font-weight: 900;
@@ -181,4 +185,63 @@ nav li a:hover {
 .button-link:hover {
     background: linear-gradient(rgb(50, 54, 194), rgb(71, 71, 270));
     transition: 1s;
+}
+
+.reveiw-card-section {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    margin-top: 10%;
+    padding: 2% 10%;
+
+
+}
+
+.review-card-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5% 10%;
+    box-shadow: -1px -1px 30px 1px black;
+    border-radius: 10px;
+}
+
+.review-div {
+    text-align: center;
+    color: white;
+
+}
+
+.store-section {
+    position: absolute;
+    top: 170%;
+    width: 100%;
+}
+
+.store-parent-div {
+    text-align: center;
+}
+
+.store-parent-div h2 {
+    font-size: 90px;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 2%;
+}
+
+.flexible-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30%;
+    padding-right: 30%;
+
+}
+
+.learn-prog-text {
+    /* background: -webkit-linear-gradient(rgb(229, 165, 67), rgb(229, 265, 67));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color: rgb(229, 172, 86);
+
 }
