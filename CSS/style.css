@@ -279,7 +279,7 @@ nav li a:hover {
 }
 
 #one-m-div {
-    background-color: rgb(44, 31, 85);
+    background: linear-gradient(rgb(44, 31, 85), rgb(26, 7, 86));
     border-radius: 20px;
     padding-left: 5%;
     padding-bottom: 0;
@@ -295,14 +295,13 @@ nav li a:hover {
 }
 
 .rewards-div {
-    background-color: rgb(44, 31, 85);
+    background: linear-gradient(rgb(44, 31, 85), rgb(26, 7, 86));
     padding: 5%;
     border-radius: 20px;
 }
 
 .offline-playground-div {
-    background-color: rgb(236, 87, 104);
-    padding-top: 5%;
+    background: linear-gradient(rgb(236, 87, 104), rgb(228, 34, 56));
     padding-left: 5%;
     margin-top: 5%;
     border-radius: 20px;
@@ -311,12 +310,13 @@ nav li a:hover {
 
 
 .offline-playground-div img {
-    width: 100%;
+    width: 90%;
 }
 
 .o-p-div {
 
     width: 150%;
+    padding-top: 5%;
 }
 
 .o-p-div p {
@@ -333,6 +333,5 @@ nav li a:hover {
 
 .python-pic img {
     width: 100%;
-
 
 }
