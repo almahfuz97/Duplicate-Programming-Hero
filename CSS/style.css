@@ -17,10 +17,10 @@ body {
 }
 
 header {
-    padding-top: 5%;
+    /* padding-top: 5%;
     padding-bottom: 10%;
     padding-left: 10%;
-    padding-right: 10%;
+    padding-right: 10%; */
 
 }
 
@@ -159,7 +159,7 @@ nav li a:hover {
 }
 
 .text-gradient {
-    font-size: 70px;
+    font-size: 3rem;
     background: -webkit-linear-gradient(rgb(87, 159, 237), rgb(112, 234, 198));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
